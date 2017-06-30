@@ -1,0 +1,20 @@
+server:
+  port: 8081
+  contextPath: /protected
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/product_db
+    username: root
+    password: password
+    driver-class: com.mysql.jdbc.Driver
+
+  jpa:
+   hibernate:
+      ddl-auto: create
+   dialect: default
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8888/auth/oauth/token
