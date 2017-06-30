@@ -1,7 +1,6 @@
-# SpringOAuthExample #
+# Spring OAuth Example #
 
-## A simple example implementing separate Authorization Server
- and Resource Server using Spring OAuth. ##
+## A simple example implementing separate Authorization Server and Resource Server using Spring OAuth. ##
 
 ### Prerequisite ###
 
@@ -28,4 +27,4 @@
 
 ### Access protected resource with access Token ###
 
-* curl -H "Authorization:Bearer <AccessToken>" http://localhost:8081/protected/1
+* curl -H "Authorization:Bearer AccessToken" http://localhost:8081/protected/1
